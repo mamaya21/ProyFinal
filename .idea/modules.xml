@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/NTTData.iml" filepath="$PROJECT_DIR$/.idea/NTTData.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Eureka/eureka-server.iml" filepath="$PROJECT_DIR$/Eureka/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-apigateway/ms-apigateway.iml" filepath="$PROJECT_DIR$/ms-apigateway/ms-apigateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-catalog-product/ms-catalog-product.iml" filepath="$PROJECT_DIR$/ms-catalog-product/ms-catalog-product.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-customer/ms-customer.iml" filepath="$PROJECT_DIR$/ms-customer/ms-customer.iml" />
