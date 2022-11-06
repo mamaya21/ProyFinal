@@ -1,0 +1,6 @@
+com/nttdata/bootcamp/msproduct/MsProductApplication.class
+com/nttdata/bootcamp/msproduct/aplication/ProductController.class
+com/nttdata/bootcamp/msproduct/aplication/ProductService.class
+com/nttdata/bootcamp/msproduct/configuration/RestClientConfiguration.class
+com/nttdata/bootcamp/msproduct/aplication/ProductServiceImpl.class
+com/nttdata/bootcamp/msproduct/model/Product.class
