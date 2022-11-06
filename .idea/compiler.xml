@@ -13,6 +13,7 @@
         <module name="ms-apigateway" />
         <module name="ms-customer-product" />
         <module name="ms-product" />
+        <module name="eureka-server" />
       </profile>
       <profile name="Annotation profile for boot-camp-project" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />

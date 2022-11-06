@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "ad732d7e-c7ae-4f7c-963a-643c97ebf648",
+		"name": "Config Server",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23884880"
+	},
+	"item": [
+		{
+			"name": "ms-persistence",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/ms-persistence/default",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ms-persistence",
+						"default"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ms-client",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9090/ms-client/default",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"ms-client",
+						"default"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ms-account",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9090/ms-account/default",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"ms-account",
+						"default"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ms-transaction",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9090/ms-transaction/default",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"ms-transaction",
+						"default"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
