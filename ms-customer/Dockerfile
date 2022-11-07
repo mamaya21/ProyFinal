@@ -1,6 +1,6 @@
 FROM openjdk:11
 VOLUME /tmp
 ARG JAR_FILE
-ADD ${JAR_FILE} /ms-customer.jar
+ADD ${JAR_FILE} /ms-customerNatural.jar
 EXPOSE 8085
-ENTRYPOINT ["java","-jar","/ms-customer.jar"]
+ENTRYPOINT ["java","-jar","/ms-customerNatural.jar"]

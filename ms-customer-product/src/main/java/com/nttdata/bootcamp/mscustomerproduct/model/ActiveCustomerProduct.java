@@ -10,7 +10,8 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 
-//se separa el activo del pasivo por la función que cada uno cumple
+//separate the active from the passive by the function that each one fulfills
+
 public class ActiveCustomerProduct {
     private Integer id;
     private String customerId;

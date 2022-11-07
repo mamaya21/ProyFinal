@@ -16,7 +16,7 @@ public class ProductController {
 
     @PostMapping("/")
     @ResponseStatus(HttpStatus.CREATED)
-    public Mono<Product> createCustomer(@RequestBody Mono<Product> product){
+    public Mono<Product> createProduct(@RequestBody Mono<Product> product){
         return productService.createProduct(product);
     }
 

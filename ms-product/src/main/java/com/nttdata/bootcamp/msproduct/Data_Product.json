@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "productType": "7205d20b-3a6a-453f-954b-0a3a482bd50c",
+    "productSubType": "3fab2d18-c5ef-45ec-930a-78fe11fa2eaf",
+    "productStatus": "active"
+  },
+  {
+    "id": 2,
+    "productType": "7205d20b-3a6a-453f-954b-0a3a482bd50c",
+    "productSubType": "df09bc1b-619c-461f-a332-affa6d0f8384",
+    "productStatus": "active"
+  },
+  {
+    "id": 3,
+    "productType": "7205d20b-3a6a-453f-954b-0a3a482bd50c",
+    "productSubType": "a8493484-bb41-4cd3-ae01-256359c45612",
+    "productStatus": "active"
+  },
+  {
+    "id": 4,
+    "productType": "2ba41044-0e1e-42a3-a5d4-2ae6094910b7",
+    "productSubType": "8ad0fd34-d88d-4591-9fbf-4588477e9068",
+    "productStatus": "active"
+  },
+  {
+    "id": 5,
+    "productType": "2ba41044-0e1e-42a3-a5d4-2ae6094910b7",
+    "productSubType": "0af3d140-3fef-4037-b4fa-21a288db6d8f",
+    "productStatus": "active"
+  },
+  {
+    "id": 6,
+    "productType": "2ba41044-0e1e-42a3-a5d4-2ae6094910b7",
+    "productSubType": "d648325b-ef94-4e62-a7ff-f5cee9942bcc",
+    "productStatus": "active"
+  },
+  {
+    "id": 7,
+    "productType": "2ba41044-0e1e-42a3-a5d4-2ae6094910b7",
+    "productSubType": "efd67a57-37e0-4d3c-9012-2543e5197f8b",
+    "productStatus": "active"
+  }
+]

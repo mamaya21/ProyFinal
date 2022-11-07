@@ -12,7 +12,7 @@ import lombok.Setter;
 public class Product {
 
     private Integer id;
-    private String nameProduct;
-    private String typeProduct; //activo o pasivo con filtro "ProductType"
-    private String statusProduct;
+    private String productType; //"ProductType" filter in "ms-catalog-product"
+    private String productSubType; //"ProductSubType" filter in "ms-catalog-product"
+    private String productStatus; //"active" or "inactive"
 }

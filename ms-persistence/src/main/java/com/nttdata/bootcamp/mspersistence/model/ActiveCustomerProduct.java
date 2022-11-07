@@ -13,7 +13,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @AllArgsConstructor
 @NoArgsConstructor
 
-//se separa el activo del pasivo por la función que cada uno cumple
+//separate the active from the passive by the function that each one fulfills
 public class ActiveCustomerProduct {
     @Id
     private Integer id;

@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "docType": "1",
+    "docNumber": "70882402",
+    "fullName": "Marco Roberto Amaya Quiroz",
+    "telephone": "956351426",
+    "address": "Lima, Perú",
+    "status": "active"
+  }
+  ,
+  {
+    "id": 2,
+    "docType": "1",
+    "docNumber": "74748041",
+    "fullName": "Angie Panaque Tejada",
+    "telephone": "996768401",
+    "address": "Lima, Perú",
+    "status": "active"
+  }
+  ,
+  {
+    "id": 3,
+    "docType": "1",
+    "docNumber": "09615979",
+    "fullName": "Sofia Quiroz",
+    "telephone": "983324931",
+    "address": "Lima, Perú",
+    "status": "active"
+  }
+  ,
+  {
+    "id": 4,
+    "docType": "1",
+    "docNumber": "08286079",
+    "fullName": "Luis Genaro",
+    "telephone": "989137911",
+    "address": "Lima, Perú",
+    "status": "active"
+  }
+]

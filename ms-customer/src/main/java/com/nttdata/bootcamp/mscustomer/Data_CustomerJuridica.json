@@ -1,0 +1,28 @@
+{
+    "id": 1,
+    "numberRUC": "20609011415",
+    "nameBusiness": "Mi Empresa SAC",
+    "telephone": "983592745",
+    "addressFiscal": "Lima, Perú",
+    "status": "active",
+    "holders": [
+        {
+            "id": 1,
+            "docType": "1",
+            "docNumber": "70882402",
+            "fullName": "Marco Roberto Amaya Quiroz",
+            "telephone": "956351426",
+            "address": "Lima, Perú",
+            "status": "active"
+        },
+        {
+            "id": 2,
+            "docType": "1",
+            "docNumber": "74748041",
+            "fullName": "Angie Panaque Tejada",
+            "telephone": "996768401",
+            "address": "Lima, Perú",
+            "status": "active"
+        }
+    ]
+}

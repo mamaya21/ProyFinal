@@ -16,7 +16,7 @@ spring:
         - id: ms-customer
           uri: http://localhost:8085
           predicates:
-            - Path=/api-customer/**
+            - Path=/api-customer-natural/**, /api-customer-juridical/**
           filters:
             - PreFilter
             - PostFilter

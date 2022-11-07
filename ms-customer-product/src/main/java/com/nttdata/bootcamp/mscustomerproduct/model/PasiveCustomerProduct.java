@@ -13,10 +13,11 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 
-//se separa el activo del pasivo por la función que cada uno cumple
+//separate the active from the passive by the function that each one fulfills
+
 public class PasiveCustomerProduct {
 
-    private Integer id;
+    private String id; //account number
     private String customerId;
     private String productId;
     private Boolean has_maintenance; // tiene mantenimiento?
