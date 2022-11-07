@@ -1,30 +1,13 @@
-2022-11-07 07:39:08.286  INFO 27524 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
-2022-11-07 07:39:09.228  INFO 27524 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2022-11-07 07:39:09.564  WARN 27524 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2022-11-07 07:39:09.623  INFO 27524 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2022-11-07 07:39:10.020  INFO 27524 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2022-11-07 07:39:10.027  INFO 27524 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2022-11-07 07:39:10.245  INFO 27524 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2022-11-07 07:39:10.246  INFO 27524 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2022-11-07 07:39:10.247  INFO 27524 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2022-11-07 07:39:10.247  INFO 27524 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2022-11-07 07:39:10.247  INFO 27524 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2022-11-07 07:39:10.247  INFO 27524 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2022-11-07 07:39:10.247  INFO 27524 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2022-11-07 07:39:10.692  INFO 27524 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2022-11-07 07:39:10.759  INFO 27524 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2022-11-07 07:39:10.763  INFO 27524 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2022-11-07 07:39:10.782  INFO 27524 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1667824750780 with initial instances count: 0
-2022-11-07 07:39:10.862  INFO 27524 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MS-PRODUCT with eureka with status UP
-2022-11-07 07:39:10.863  INFO 27524 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1667824750863, current=UP, previous=STARTING]
-2022-11-07 07:39:10.865  INFO 27524 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-PRODUCT/192.168.1.36:ms-product:8082: registering service...
-2022-11-07 07:39:10.911  INFO 27524 --- [main] c.n.b.m.MsProductApplicationTests        : Started MsProductApplicationTests in 9.431 seconds (JVM running for 11.114)
-2022-11-07 07:39:10.939  INFO 27524 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-PRODUCT/192.168.1.36:ms-product:8082 - registration status: 204
-2022-11-07 07:39:11.377  INFO 27524 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MS-PRODUCT with eureka with status DOWN
-2022-11-07 07:39:11.378  INFO 27524 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1667824751378, current=DOWN, previous=UP]
-2022-11-07 07:39:11.378  INFO 27524 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-PRODUCT/192.168.1.36:ms-product:8082: registering service...
-2022-11-07 07:39:11.389  INFO 27524 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-PRODUCT/192.168.1.36:ms-product:8082 - registration status: 204
-2022-11-07 07:39:11.391  INFO 27524 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2022-11-07 07:39:14.405  INFO 27524 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
-2022-11-07 07:39:14.417  INFO 27524 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-PRODUCT/192.168.1.36:ms-product:8082 - deregister  status: 200
-2022-11-07 07:39:14.437  INFO 27524 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-11-07 07:53:03.206  INFO 28668 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MS-PRODUCT with eureka with status UP
+2022-11-07 07:53:03.213  INFO 28668 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1667825583213, current=UP, previous=STARTING]
+2022-11-07 07:53:03.216  INFO 28668 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-PRODUCT/192.168.1.36:ms-product:8082: registering service...
+2022-11-07 07:53:03.252  INFO 28668 --- [main] c.n.b.m.MsProductApplicationTests        : Started MsProductApplicationTests in 8.998 seconds (JVM running for 10.398)
+2022-11-07 07:53:03.293  INFO 28668 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-PRODUCT/192.168.1.36:ms-product:8082 - registration status: 204
+2022-11-07 07:53:03.805  INFO 28668 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MS-PRODUCT with eureka with status DOWN
+2022-11-07 07:53:03.807  INFO 28668 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1667825583806, current=DOWN, previous=UP]
+2022-11-07 07:53:03.808  INFO 28668 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-PRODUCT/192.168.1.36:ms-product:8082: registering service...
+2022-11-07 07:53:03.821  INFO 28668 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-PRODUCT/192.168.1.36:ms-product:8082 - registration status: 204
+2022-11-07 07:53:03.825  INFO 28668 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-11-07 07:53:06.847  INFO 28668 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-11-07 07:53:06.864  INFO 28668 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-PRODUCT/192.168.1.36:ms-product:8082 - deregister  status: 200
+2022-11-07 07:53:06.881  INFO 28668 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

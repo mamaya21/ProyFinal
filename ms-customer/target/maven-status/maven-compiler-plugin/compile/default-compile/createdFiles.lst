@@ -1,0 +1,10 @@
+com/nttdata/bootcamp/mscustomer/MsCustomerApplication.class
+com/nttdata/bootcamp/mscustomer/aplication/CustomerNaturalController.class
+com/nttdata/bootcamp/mscustomer/aplication/CustomerNaturalServiceImpl.class
+com/nttdata/bootcamp/mscustomer/aplication/CustomerNaturalService.class
+com/nttdata/bootcamp/mscustomer/aplication/CustomerJuridicalController.class
+com/nttdata/bootcamp/mscustomer/model/CustomerNatural.class
+com/nttdata/bootcamp/mscustomer/model/CustomerJuridical.class
+com/nttdata/bootcamp/mscustomer/aplication/CustomerJuridicalService.class
+com/nttdata/bootcamp/mscustomer/aplication/CustomerJuridicalServiceImpl.class
+com/nttdata/bootcamp/mscustomer/configuration/RestClientConfiguration.class

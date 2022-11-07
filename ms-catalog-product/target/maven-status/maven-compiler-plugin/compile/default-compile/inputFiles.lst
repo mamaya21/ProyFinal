@@ -1,0 +1,7 @@
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-catalog-product/src/main/java/com/nttdata/bootcamp/mscatalog/MsCatalogApplication.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-catalog-product/src/main/java/com/nttdata/bootcamp/mscatalog/domain/Catalog.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-catalog-product/src/main/java/com/nttdata/bootcamp/mscatalog/repository/CatalogRepository.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-catalog-product/src/main/java/com/nttdata/bootcamp/mscatalog/service/CatalogService.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-catalog-product/src/main/java/com/nttdata/bootcamp/mscatalog/web/maper/CatalogMapper.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-catalog-product/src/main/java/com/nttdata/bootcamp/mscatalog/web/model/CatalogModel.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-catalog-product/src/main/java/com/nttdata/bootcamp/mscatalog/web/CatalogController.java

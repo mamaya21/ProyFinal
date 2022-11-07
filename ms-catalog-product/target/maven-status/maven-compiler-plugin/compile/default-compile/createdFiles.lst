@@ -1,0 +1,10 @@
+com/nttdata/bootcamp/mscatalog/repository/CatalogRepository.class
+com/nttdata/bootcamp/mscatalog/MsCatalogApplication.class
+com/nttdata/bootcamp/mscatalog/service/CatalogService.class
+com/nttdata/bootcamp/mscatalog/web/model/CatalogModel.class
+com/nttdata/bootcamp/mscatalog/web/model/CatalogModel$CatalogModelBuilder.class
+com/nttdata/bootcamp/mscatalog/web/maper/CatalogMapper.class
+com/nttdata/bootcamp/mscatalog/domain/Catalog$CatalogBuilder.class
+com/nttdata/bootcamp/mscatalog/domain/Catalog.class
+com/nttdata/bootcamp/mscatalog/web/CatalogController.class
+com/nttdata/bootcamp/mscatalog/web/maper/CatalogMapperImpl.class

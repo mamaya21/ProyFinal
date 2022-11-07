@@ -1,4 +1,4 @@
-package com.nttdata.bootcamp.msproduct;
+package com.nttdata.bootcamp.mscatalog;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
