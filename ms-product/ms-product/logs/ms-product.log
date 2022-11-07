@@ -1,0 +1,40 @@
+2022-11-07 07:31:12.735  INFO 26933 --- [main] c.n.b.m.MsProductApplicationTests        : Starting MsProductApplicationTests using Java 17.0.2 on MacBook-Pro-de-Marco.local with PID 26933 (started by marco in /Users/marco/Documents/Proys_JAVA/NTTData/ms-product)
+2022-11-07 07:31:12.736 DEBUG 26933 --- [main] c.n.b.m.MsProductApplicationTests        : Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-11-07 07:31:12.737  INFO 26933 --- [main] c.n.b.m.MsProductApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2022-11-07 07:31:12.776  INFO 26933 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8080
+2022-11-07 07:31:12.776  INFO 26933 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Connect Timeout Exception on Url - http://localhost:8080. Will be trying the next url if available
+2022-11-07 07:31:12.776  WARN 26933 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@30cecdca uris = array<String>['http://localhost:8080'], optional = true, profiles = list['default']]): I/O error on GET request for "http://localhost:8080/ms-product/default": Connection refused; nested exception is java.net.ConnectException: Connection refused
+2022-11-07 07:31:14.893  INFO 26933 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ae17a32e-d1a3-324b-a050-33dd97ba2722
+2022-11-07 07:31:15.341  INFO 26933 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 07:31:15.359  INFO 26933 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 07:31:15.371  INFO 26933 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 07:31:18.632  INFO 26933 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2022-11-07 07:31:19.530  INFO 26933 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-11-07 07:31:19.835  WARN 26933 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-11-07 07:31:19.920  INFO 26933 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-11-07 07:31:20.322  INFO 26933 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-11-07 07:31:20.328  INFO 26933 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-07 07:31:20.524  INFO 26933 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-11-07 07:31:20.525  INFO 26933 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-11-07 07:31:20.525  INFO 26933 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-11-07 07:31:20.525  INFO 26933 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-11-07 07:31:20.525  INFO 26933 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-11-07 07:31:20.525  INFO 26933 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-11-07 07:31:20.525  INFO 26933 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-11-07 07:31:21.038  INFO 26933 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-11-07 07:31:21.046  INFO 26933 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-11-07 07:31:21.049  INFO 26933 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-11-07 07:31:21.059  INFO 26933 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1667824281057 with initial instances count: 0
+2022-11-07 07:31:21.124  INFO 26933 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MS-PRODUCT with eureka with status UP
+2022-11-07 07:31:21.124  INFO 26933 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1667824281124, current=UP, previous=STARTING]
+2022-11-07 07:31:21.126  INFO 26933 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-PRODUCT/192.168.1.36:ms-product:8082: registering service...
+2022-11-07 07:31:21.165  INFO 26933 --- [main] c.n.b.m.MsProductApplicationTests        : Started MsProductApplicationTests in 9.433 seconds (JVM running for 11.605)
+2022-11-07 07:31:21.186  INFO 26933 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-PRODUCT/192.168.1.36:ms-product:8082 - registration status: 204
+2022-11-07 07:31:21.728  INFO 26933 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MS-PRODUCT with eureka with status DOWN
+2022-11-07 07:31:21.728  INFO 26933 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1667824281728, current=DOWN, previous=UP]
+2022-11-07 07:31:21.729  INFO 26933 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-PRODUCT/192.168.1.36:ms-product:8082: registering service...
+2022-11-07 07:31:21.741  INFO 26933 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-PRODUCT/192.168.1.36:ms-product:8082 - registration status: 204
+2022-11-07 07:31:21.748  INFO 26933 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-11-07 07:31:24.755  INFO 26933 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-11-07 07:31:24.765  INFO 26933 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-PRODUCT/192.168.1.36:ms-product:8082 - deregister  status: 200
+2022-11-07 07:31:24.778  INFO 26933 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
