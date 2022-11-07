@@ -25,6 +25,7 @@ public class PasiveCustomerProduct {
     private String productId;
     private String customerId;
     private String customerType;            //N = Natural, B = Business
+    private Double amountAccount;           //saldo
     private Boolean hasMaintenance;         //Maintenance?
     private Double amountMaintenance;       //Amount of maintenance
     private Boolean hasMovementLimit;       //Has movement limit?

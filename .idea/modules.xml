@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/ms-persistence/ms-persistence.iml" filepath="$PROJECT_DIR$/ms-persistence/ms-persistence.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-product/ms-product.iml" filepath="$PROJECT_DIR$/ms-product/ms-product.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-transaction/ms-transaction.iml" filepath="$PROJECT_DIR$/ms-transaction/ms-transaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-yanki/ms-yanki.iml" filepath="$PROJECT_DIR$/ms-yanki/ms-yanki.iml" />
     </modules>
   </component>
 </project>

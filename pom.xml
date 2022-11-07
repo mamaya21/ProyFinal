@@ -18,6 +18,7 @@
         <module>ms-transaction</module>
         <module>ms-apigateway</module>
         <module>ms-catalog-product</module>
+        <module>ms-yanki</module>
     </modules>
 
     <properties>

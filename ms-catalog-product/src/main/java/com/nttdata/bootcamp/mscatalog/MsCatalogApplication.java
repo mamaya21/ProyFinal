@@ -34,7 +34,8 @@ public class MsCatalogApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		/*repository.deleteAll();
+		repository.deleteAll();
+		/*
 		Flux.just(Catalog.builder().parameter("ProductType").value("Activos").build())
 				.flatMap(p -> repository.save(p)).subscribe(p -> log.info("Insert: " + p.toString()));
 		Flux.just(Catalog.builder().parameter("ProductType").value("Pasivos").build())
@@ -52,8 +53,10 @@ public class MsCatalogApplication implements CommandLineRunner {
 		Flux.just(Catalog.builder().parameter("ProductSubType").value("Tarjeta Credito Personal").build())
 				.flatMap(p -> repository.save(p)).subscribe(p -> log.info("Insert: " + p.toString()));
 		Flux.just(Catalog.builder().parameter("ProductSubType").value("Tarjeta Credito Empresarial").build())
-				.flatMap(p -> repository.save(p)).subscribe(p -> log.info("Insert: " + p.toString()));*/
+				.flatMap(p -> repository.save(p)).subscribe(p -> log.info("Insert: " + p.toString()));
+
 		log.debug("run");
+		 */
 	}
 
 
