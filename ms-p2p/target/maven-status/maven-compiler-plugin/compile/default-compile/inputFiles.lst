@@ -1,0 +1,13 @@
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-p2p/src/main/java/com/nttdata/bootcamp/msp2p/web/P2PController.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-p2p/src/main/java/com/nttdata/bootcamp/msp2p/service/PagoP2PService.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-p2p/src/main/java/com/nttdata/bootcamp/msp2p/domain/PagoP2P.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-p2p/src/main/java/com/nttdata/bootcamp/msp2p/web/maper/PagoP2PMapper.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-p2p/src/main/java/com/nttdata/bootcamp/msp2p/repository/PagoP2PRepository.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-p2p/src/main/java/com/nttdata/bootcamp/msp2p/web/maper/P2PMapper.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-p2p/src/main/java/com/nttdata/bootcamp/msp2p/domain/P2P.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-p2p/src/main/java/com/nttdata/bootcamp/msp2p/repository/P2PRepository.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-p2p/src/main/java/com/nttdata/bootcamp/msp2p/service/P2PService.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-p2p/src/main/java/com/nttdata/bootcamp/msp2p/web/model/PagoP2PModel.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-p2p/src/main/java/com/nttdata/bootcamp/msp2p/web/model/P2PModel.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-p2p/src/main/java/com/nttdata/bootcamp/msp2p/Msp2pApplication.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-p2p/src/main/java/com/nttdata/bootcamp/msp2p/web/PagoP2PController.java

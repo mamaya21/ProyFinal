@@ -1,0 +1,13 @@
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-yanki/src/main/java/com/nttdata/bootcamp/msyanki/domain/Yanki.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-yanki/src/main/java/com/nttdata/bootcamp/msyanki/web/PagoYankiController.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-yanki/src/main/java/com/nttdata/bootcamp/msyanki/domain/PagoYanki.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-yanki/src/main/java/com/nttdata/bootcamp/msyanki/repository/YankiRepository.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-yanki/src/main/java/com/nttdata/bootcamp/msyanki/web/maper/PagoYankiMapper.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-yanki/src/main/java/com/nttdata/bootcamp/msyanki/web/YankiController.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-yanki/src/main/java/com/nttdata/bootcamp/msyanki/web/maper/YankiMapper.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-yanki/src/main/java/com/nttdata/bootcamp/msyanki/web/model/YankiModel.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-yanki/src/main/java/com/nttdata/bootcamp/msyanki/service/YankiService.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-yanki/src/main/java/com/nttdata/bootcamp/msyanki/repository/PagoYankiRepository.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-yanki/src/main/java/com/nttdata/bootcamp/msyanki/web/model/PagoYankiModel.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-yanki/src/main/java/com/nttdata/bootcamp/msyanki/MsYankiApplication.java
+/Users/marco/Documents/Proys_JAVA/NTTData/ms-yanki/src/main/java/com/nttdata/bootcamp/msyanki/service/PagoYankiService.java

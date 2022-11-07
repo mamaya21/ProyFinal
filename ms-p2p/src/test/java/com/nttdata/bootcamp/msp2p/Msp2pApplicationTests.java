@@ -1,10 +1,10 @@
-package com.nttdata.bootcamp.mscatalog;
+package com.nttdata.bootcamp.msp2p;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MsProductApplicationTests {
+class Msp2pApplicationTests {
 
 	@Test
 	void contextLoads() {
