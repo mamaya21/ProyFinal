@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/ms-product/ms-product.iml" filepath="$PROJECT_DIR$/ms-product/ms-product.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-transaction/ms-transaction.iml" filepath="$PROJECT_DIR$/ms-transaction/ms-transaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-yanki/ms-yanki.iml" filepath="$PROJECT_DIR$/ms-yanki/ms-yanki.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-p2p/ms-p2p.iml" filepath="$PROJECT_DIR$/ms-p2p/ms-p2p.iml" />
     </modules>
   </component>
 </project>

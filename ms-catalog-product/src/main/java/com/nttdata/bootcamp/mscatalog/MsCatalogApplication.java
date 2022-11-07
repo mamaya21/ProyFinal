@@ -55,8 +55,17 @@ public class MsCatalogApplication implements CommandLineRunner {
 		Flux.just(Catalog.builder().parameter("ProductSubType").value("Tarjeta Credito Empresarial").build())
 				.flatMap(p -> repository.save(p)).subscribe(p -> log.info("Insert: " + p.toString()));
 
-		log.debug("run");
+
+		Flux.just(Catalog.builder().parameter("TasaCompraSoles").value("3.90").build())
+				.flatMap(p -> repository.save(p)).subscribe(p -> log.info("Insert: " + p.toString()));
+
+		Flux.just(Catalog.builder().parameter("TasaVentaSoles").value("4.10").build())
+				.flatMap(p -> repository.save(p)).subscribe(p -> log.info("Insert: " + p.toString()));
+
 		 */
+
+		log.debug("run");
+
 	}
 
 

@@ -27,6 +27,7 @@
         </processorPath>
         <module name="ms-catalog-product" />
         <module name="ms-yanki" />
+        <module name="ms-p2p" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -36,6 +37,7 @@
       <module name="ms-catalog-product" target="11" />
       <module name="ms-customer" target="11" />
       <module name="ms-customer-product" target="11" />
+      <module name="ms-p2p" target="11" />
       <module name="ms-persistence" target="11" />
       <module name="ms-product" target="11" />
       <module name="ms-transaction" target="11" />
@@ -51,6 +53,7 @@
       <module name="ms-catalog-product" options="-parameters -Amapstruct.verbose=true" />
       <module name="ms-customer" options="-parameters" />
       <module name="ms-customer-product" options="-parameters" />
+      <module name="ms-p2p" options="-parameters -Amapstruct.verbose=true" />
       <module name="ms-persistence" options="-parameters" />
       <module name="ms-product" options="-parameters" />
       <module name="ms-transaction" options="-parameters" />

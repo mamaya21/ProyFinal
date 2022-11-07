@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/ms-catalog-product/pom.xml" />
         <option value="$PROJECT_DIR$/ms-yanki/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-p2p/pom.xml" />
       </list>
     </option>
   </component>

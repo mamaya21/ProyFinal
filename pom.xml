@@ -19,6 +19,7 @@
         <module>ms-apigateway</module>
         <module>ms-catalog-product</module>
         <module>ms-yanki</module>
+        <module>ms-p2p</module>
     </modules>
 
     <properties>

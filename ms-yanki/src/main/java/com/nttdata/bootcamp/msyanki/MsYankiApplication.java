@@ -40,6 +40,8 @@ public class MsYankiApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		//repository.deleteAll();
+
+		/*
 		Flux.just(Yanki.builder().id("1").docNumber("17614375").cellNumber("987654321")
 						.cellImei("123456789").email("nancy.tejada@gmail.com")
 						.amountPurse(1500.00).build())
@@ -50,10 +52,12 @@ public class MsYankiApplication implements CommandLineRunner {
 						.accountAssociate(2).amountPurse(1269.3).build())
 				.flatMap(p -> repository.save(p)).subscribe(p -> log.info("Insert: " + p.toString()));
 
-		//INSERT DATA PAGO YANKI
+
 		Flux.just(PagoYanki.builder().idTransmitter("1").idReceiver("2").amountSend(50.00).descriptionSend("transaccion ok").build())
 				.flatMap(p2 -> repositoryPago.save(p2)).subscribe(p2 -> log.info("Insert Yanki Pago: " + p2.toString()));
 
+
+		*/
 		log.debug("run");
 	}
 
