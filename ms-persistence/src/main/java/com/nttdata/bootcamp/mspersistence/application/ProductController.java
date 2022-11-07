@@ -20,7 +20,7 @@ public class ProductController {
         return productService.createProduct(product);
     }
 
-    @GetMapping(value = "get", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
+    @GetMapping(value = "get")
     public Flux<Product> listAll(){
         return productService.listAll();
     }

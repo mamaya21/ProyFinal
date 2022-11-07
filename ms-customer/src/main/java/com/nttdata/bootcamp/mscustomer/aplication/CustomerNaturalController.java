@@ -26,13 +26,13 @@ public class CustomerNaturalController {
         return customerNaturalService.createCustomer(Mono.just(customerNatural));
     }
 
-    @GetMapping(value = "getCustomer", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
+    @GetMapping(value = "getCustomer")
     public Flux<CustomerNatural> listAll(){
         log.debug("requesting the getCustomer Natural route");
         return customerNaturalService.listAll();
     }
 
-    @GetMapping(value = "getCustomer/{id}", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
+    @GetMapping(value = "getCustomer/{id}")
     public Mono<CustomerNatural> listCustomerId(@PathVariable("id") Integer id){
         log.debug("requesting the getCustomer/id Natural route");
         return customerNaturalService.listCustomerId(id);

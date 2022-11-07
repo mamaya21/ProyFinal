@@ -22,7 +22,7 @@ public class CustomerJuridicalController {
         return juridicalService.createCustomer(customer);
     }
 
-    @GetMapping(value = "get", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
+    @GetMapping(value = "get")
     public Flux<CustomerJuridical> listAll(){
         return juridicalService.listAll();
     }

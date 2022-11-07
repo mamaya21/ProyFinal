@@ -16,13 +16,13 @@ public class PasiveCustomerProductServiceImpl implements PasiveCustomerProductSe
 
     @Autowired
     public PasiveCustomerProductServiceImpl(WebClient.Builder builder) {
-        this.clientPersistence = builder.baseUrl("http://ms-persistence/pasivecustomerproduct/").build();
+        this.clientPersistence = builder.baseUrl("http://ms-persistence/").build();
     }
 
     @Override
     public Mono<PasiveCustomerProduct> createPasiveCustomProd(Mono<PasiveCustomerProduct> pasiveCustomerProductMono) {
         return clientPersistence.post()
-                .uri("/")
+                .uri("pasive/")
                 .body(pasiveCustomerProductMono, PasiveCustomerProduct.class)
                 .retrieve()
                 .bodyToMono(PasiveCustomerProduct.class)
@@ -32,7 +32,7 @@ public class PasiveCustomerProductServiceImpl implements PasiveCustomerProductSe
     @Override
     public Flux<PasiveCustomerProduct> listPasiveCustomProdAll() {
         return clientPersistence.get()
-                .uri("get")
+                .uri("pasive/get")
                 .retrieve()
                 .bodyToFlux(PasiveCustomerProduct.class)
                 .transform(it -> reactiveCircuitBreakerFactory.create("pasive-service").run(it, throwable -> Flux.just(new PasiveCustomerProduct())));
@@ -41,7 +41,7 @@ public class PasiveCustomerProductServiceImpl implements PasiveCustomerProductSe
     @Override
     public Mono<PasiveCustomerProduct> listPasiveCustomProd_Id(Integer id) {
         return clientPersistence.get()
-                .uri("get/{id}", id)
+                .uri("pasive/get/{id}", id)
                 .retrieve()
                 .bodyToMono(PasiveCustomerProduct.class)
                 .transform(it -> reactiveCircuitBreakerFactory.create("pasive-service").run(it, throwable -> Mono.just(new PasiveCustomerProduct())));
@@ -50,9 +50,10 @@ public class PasiveCustomerProductServiceImpl implements PasiveCustomerProductSe
     @Override
     public Mono<Void> deletePasiveCustomProd(Integer id) {
         return clientPersistence.delete()
-                .uri("delete/{id}", id)
+                .uri("pasive/delete/{id}", id)
                 .retrieve()
                 .bodyToMono(Void.class)
                 .transform(it -> reactiveCircuitBreakerFactory.create("pasive-service").run(it, throwable -> Mono.empty()));
     }
+
 }

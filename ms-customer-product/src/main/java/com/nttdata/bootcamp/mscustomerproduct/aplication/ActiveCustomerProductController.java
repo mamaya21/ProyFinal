@@ -9,24 +9,24 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @RestController
-@RequestMapping("api-activecustomerproduct")
+@RequestMapping("api-account-active")
 public class ActiveCustomerProductController {
 
     @Autowired
     ActiveCustomerProductService activeCustomerProductService;
 
-    @PostMapping("activecustomerproduct")
+    @PostMapping("create")
     @ResponseStatus(HttpStatus.CREATED)
     public Mono<ActiveCustomerProduct> createActiveCustomProd(@RequestBody ActiveCustomerProduct activeCustomerProduct){
         return activeCustomerProductService.createActiveCustomProd(Mono.just(activeCustomerProduct));
     }
 
-    @GetMapping(value = "get", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
+    @GetMapping(value = "get")
     public Flux<ActiveCustomerProduct> listActiveCustomProdAll(){
         return activeCustomerProductService.listActiveCustomProdAll();
     }
 
-    @GetMapping(value = "get/{id}", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
+    @GetMapping(value = "get/{id}")
     public Mono<ActiveCustomerProduct> listActiveCustomProd_Id(@PathVariable("id") Integer id){
         return activeCustomerProductService.listActiveCustomProd_Id(id);
     }

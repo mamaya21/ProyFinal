@@ -9,7 +9,7 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @RestController
-@RequestMapping("pasivecustomerproduct")
+@RequestMapping("pasive")
 public class PasiveCustomerProductController {
     @Autowired
     PasiveCustomerProductService pasiveCustomerProductService;
@@ -20,12 +20,12 @@ public class PasiveCustomerProductController {
         return pasiveCustomerProductService.createPasiveCustomProd(pasiveCustomerProduct);
     }
 
-    @GetMapping(value = "get", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
+    @GetMapping(value = "get")
     public Flux<PasiveCustomerProduct> listAll(){
         return pasiveCustomerProductService.listPasiveCustomProdAll();
     }
 
-    @GetMapping(value = "get/{id}", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
+    @GetMapping(value = "get/{id}")
     public Mono<PasiveCustomerProduct> listPasiveCustomProd_Id(@PathVariable("id") Integer id){
         return pasiveCustomerProductService.listPasiveCustomProd_Id(id);
     }

@@ -20,7 +20,7 @@ public class CustomerNaturalController {
         return customerNaturalService.createCustomer(customer);
     }
 
-    @GetMapping(value = "get", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
+    @GetMapping(value = "get")
     public Flux<CustomerNatural> listAll(){
         return customerNaturalService.listAll();
     }

@@ -25,13 +25,13 @@ public class CustomerJuridicalController {
         return customerJuridicalService.createCustomer(Mono.just(customerJuridical));
     }
 
-    @GetMapping(value = "getCustomer", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
+    @GetMapping(value = "getCustomer")
     public Flux<CustomerJuridical> listAll(){
         log.debug("requesting the getCustomer Juridical route");
         return customerJuridicalService.listAll();
     }
 
-    @GetMapping(value = "getCustomer/{id}", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
+    @GetMapping(value = "getCustomer/{id}")
     public Mono<CustomerJuridical> listCustomerId(@PathVariable("id") Integer id){
         log.debug("requesting the getCustomer/id Juridical route");
         return customerJuridicalService.listCustomerId(id);

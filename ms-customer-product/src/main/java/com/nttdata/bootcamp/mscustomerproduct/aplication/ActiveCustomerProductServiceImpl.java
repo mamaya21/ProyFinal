@@ -17,13 +17,13 @@ public class ActiveCustomerProductServiceImpl implements ActiveCustomerProductSe
 
     @Autowired
     public ActiveCustomerProductServiceImpl(WebClient.Builder builder) {
-        this.clientPersistence = builder.baseUrl("http://ms-persistence/activecustomerproduct/").build();
+        this.clientPersistence = builder.baseUrl("http://ms-persistence/").build();
     }
 
     @Override
     public Mono<ActiveCustomerProduct> createActiveCustomProd(Mono<ActiveCustomerProduct> activeCustomerProductMono) {
         return clientPersistence.post()
-                .uri("/")
+                .uri("active/")
                 .body(activeCustomerProductMono, ActiveCustomerProduct.class)
                 .retrieve()
                 .bodyToMono(ActiveCustomerProduct.class)
@@ -33,7 +33,7 @@ public class ActiveCustomerProductServiceImpl implements ActiveCustomerProductSe
     @Override
     public Flux<ActiveCustomerProduct> listActiveCustomProdAll() {
         return clientPersistence.get()
-                .uri("get")
+                .uri("active/get")
                 .retrieve()
                 .bodyToFlux(ActiveCustomerProduct.class)
                 .transform(it -> reactiveCircuitBreakerFactory.create("active-service").run(it, throwable -> Flux.just(new ActiveCustomerProduct())));
@@ -42,7 +42,7 @@ public class ActiveCustomerProductServiceImpl implements ActiveCustomerProductSe
     @Override
     public Mono<ActiveCustomerProduct> listActiveCustomProd_Id(Integer id) {
         return clientPersistence.get()
-                .uri("get/{id}", id)
+                .uri("active/get/{id}", id)
                 .retrieve()
                 .bodyToMono(ActiveCustomerProduct.class)
                 .transform(it -> reactiveCircuitBreakerFactory.create("active-service").run(it, throwable -> Mono.just(new ActiveCustomerProduct())));
@@ -51,7 +51,7 @@ public class ActiveCustomerProductServiceImpl implements ActiveCustomerProductSe
     @Override
     public Mono<Void> deleteActiveCustomProd(Integer id) {
         return clientPersistence.delete()
-                .uri("delete/{id}", id)
+                .uri("active/delete/{id}", id)
                 .retrieve()
                 .bodyToMono(Void.class)
                 .transform(it -> reactiveCircuitBreakerFactory.create("active-service").run(it, throwable -> Mono.empty()));

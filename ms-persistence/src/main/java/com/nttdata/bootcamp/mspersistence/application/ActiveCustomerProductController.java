@@ -9,7 +9,7 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @RestController
-@RequestMapping("activecustomerproduct")
+@RequestMapping("active")
 public class ActiveCustomerProductController {
     @Autowired
     ActiveCustomerProductService activeCustomerProductService;
@@ -25,7 +25,7 @@ public class ActiveCustomerProductController {
         return activeCustomerProductService.listActiveCustomProdAll();
     }
 
-    @GetMapping(value = "get/{id}", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
+    @GetMapping(value = "get/{id}")
     public Mono<ActiveCustomerProduct> listActiveCustomProd_Id(@PathVariable("id") Integer id){
         return activeCustomerProductService.listActiveCustomProd_Id(id);
     }

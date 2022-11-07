@@ -16,7 +16,7 @@ spring:
         - id: ms-customer
           uri: http://localhost:8085
           predicates:
-            - Path=/api-customer-natural/**, /api-customer-juridical/**
+            - Path=/customer-natural/**, /customer-juridical/**
           filters:
             - PreFilter
             - PostFilter
@@ -30,7 +30,7 @@ spring:
         - id: ms-customerproduct
           uri: http://localhost:8083
           predicates:
-            - Path=/api-activecustomerproduct/**, /api-pasivecustomerproduct/**
+            - Path=/api-account-active/**, /api-account-pasive/**
           filters:
             - PreFilter
             - PostFilter

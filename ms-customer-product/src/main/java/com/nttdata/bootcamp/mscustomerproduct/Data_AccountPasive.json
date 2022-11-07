@@ -1,0 +1,15 @@
+{
+    "id": 2,
+    "numAccount": "191-34795502-0-71",
+    "numAccountCCI": "00219113479550207051",
+    "numCard": "4557-8806-3303-7661",
+    "productId": "1",
+    "customerId": "2",
+    "customerType": "N",
+    "hasMaintenance": false,
+    "amountMaintenance": 0.00,
+    "hasMovementLimit": true,
+    "amountMovementLimit": 10,
+    "dayInMonthMovement": 0,
+    "status": "active"
+}

@@ -9,23 +9,24 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @RestController
-@RequestMapping("api-pasivecustomerproduct")
+@RequestMapping("api-account-pasive")
 public class PasiveCustomerProductController {
     @Autowired
     PasiveCustomerProductService pasiveCustomerProductService;
 
-    @PostMapping("pasivecustomerproduct")
+    @PostMapping("create")
     @ResponseStatus(HttpStatus.CREATED)
     public Mono<PasiveCustomerProduct> createPasiveCustomProd(@RequestBody PasiveCustomerProduct pasiveCustomerProduct){
         return pasiveCustomerProductService.createPasiveCustomProd(Mono.just(pasiveCustomerProduct));
     }
 
-    @GetMapping(value = "get", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
+    @GetMapping(value = "get")
     public Flux<PasiveCustomerProduct> listAll(){
+
         return pasiveCustomerProductService.listPasiveCustomProdAll();
     }
 
-    @GetMapping(value = "get/{id}", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
+    @GetMapping(value = "get/{id}")
     public Mono<PasiveCustomerProduct> listPasiveCustomProd_Id(@PathVariable("id") Integer id){
         return pasiveCustomerProductService.listPasiveCustomProd_Id(id);
     }
@@ -34,4 +35,5 @@ public class PasiveCustomerProductController {
     public Mono<Void> deleteProduct(@PathVariable("id") Integer id){
         return pasiveCustomerProductService.deletePasiveCustomProd(id);
     }
+
 }

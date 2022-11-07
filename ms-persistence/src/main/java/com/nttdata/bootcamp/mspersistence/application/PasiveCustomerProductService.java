@@ -6,8 +6,8 @@ import reactor.core.publisher.Mono;
 
 public interface PasiveCustomerProductService {
     Mono<PasiveCustomerProduct> createPasiveCustomProd(Mono<PasiveCustomerProduct> pasiveCustomerProductMono);
-    Mono<Void> deletePasiveCustomProd(Integer id);
     Flux<PasiveCustomerProduct> listPasiveCustomProdAll();
     Mono<PasiveCustomerProduct> listPasiveCustomProd_Id(Integer id);
+    Mono<Void> deletePasiveCustomProd(Integer id);
 }
 

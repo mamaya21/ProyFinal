@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "productId": "6",
+  "customerId": "1",
+  "customerType": "N",
+  "amountCredit": "1150.00",
+  "debtCredit": "850.00",
+  "limitCredit": "2000.00",
+  "dayPayment": 27,
+  "dayCutOff": 5,
+  "status" : "active"
+}

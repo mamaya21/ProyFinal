@@ -25,7 +25,7 @@ public class ProductController {
         return productService.createProduct(Mono.just(product));
     }
 
-    @GetMapping(value = "getProduct", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
+    @GetMapping(value = "getProduct")
     public Flux<Product> listAll(){
         log.debug("requesting the getProduct route");
         return productService.listAll();

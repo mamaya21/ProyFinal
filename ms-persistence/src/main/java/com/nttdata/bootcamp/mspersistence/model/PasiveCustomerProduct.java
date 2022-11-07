@@ -18,11 +18,17 @@ import java.util.Date;
 //separate the active from the passive by the function that each one fulfills
 public class PasiveCustomerProduct {
     @Id
-    private Integer id;
-    private String customerId;
+    private Integer id;                      //id
+    private String numAccount;              //Account number
+    private String numAccountCCI;           //Account number interbank
+    private String numCard;                 //Card number
     private String productId;
-    private Boolean has_maintenance; // tiene mantenimiento?
-    private Double amountMaintenance; //monto mantenimiento
-    private Integer amountOperation; //cantidad de operaciones
-    private Date dateOperation; //fecha permitida para la operacion
+    private String customerId;
+    private String customerType;            //N = Natural, B = Business
+    private Boolean hasMaintenance;         //Maintenance?
+    private Double amountMaintenance;       //Amount of maintenance
+    private Boolean hasMovementLimit;       //Has movement limit?
+    private Integer amountMovementLimit;    //Amount movement limit
+    private Integer dayInMonthMovement;     //Day in the month to perform an operation
+    private String status;                  //active - inactive
 }
